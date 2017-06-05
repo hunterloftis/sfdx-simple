@@ -1,0 +1,19 @@
+{
+    "name": "Salesforce DX + Heroku Pipelines",
+    "description": "Dreamforce Force.com Application demonstrating Salesforce DX and Heroku Integration",
+    "repository": "https://github.com/hunterloftis/sfdx-simple",
+    "keywords": [
+        "salesforce",
+        "salesforcedx",
+        "force.com",
+        "heroku"
+    ],
+    "addons": [
+        "salesforce"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/salesforce-buildpack"
+        }
+    ]
+}
